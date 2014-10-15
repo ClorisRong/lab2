@@ -26,7 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   </head>
   <body>
-    <h1 text align="center";>List</h1>
+    <h1 text align="center";>BList</h1>
     <%
     	List<String> Title = (List)request.getAttribute("bookname");
     	//System.out.println(Title);

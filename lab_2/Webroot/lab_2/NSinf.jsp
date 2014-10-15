@@ -40,7 +40,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
      %>
      <tr>
-     	<td text align="center";width="400";>AuthorID</td>
+     	<td text align="center";width="400";>A-ID</td>
      	<td><%= detail.getAuhorID()%></td>
      </tr>
      <tr>

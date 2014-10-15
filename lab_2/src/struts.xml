@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<include file="struts-default.xml"/>
+	<package name="lab_2" namespace="/" extends="struts-default">
+		<action name ="findbook_a" class="lab_2.findbook_a" method="execute">
+			<result name="success">/lab_2/Delete.jsp</result>
+		</action>
+		
+		<action name ="inf_a" class="lab_2.inf_a" method="execute">
+			<result name="success">/lab_2/NSinf.jsp</result>
+		</action>
+		
+		<action name ="delete_a" class="lab_2.delete_a" method="execute">
+			<result name="success">/lab_2/DR.jsp</result>
+		</action>
+		
+	</package>
+	
+	
+</struts>    

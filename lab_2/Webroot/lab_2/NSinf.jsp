@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <table width="800"  border="1">
     <tr>
 		<td colspan="2" style="background-color:#99bbbb;">
-			<h1 text align="center";>Information</h1>
+			<h1 text align="center";>Infor</h1>
 		</td>
 	</tr>
 	

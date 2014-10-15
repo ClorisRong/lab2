@@ -9,6 +9,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
   <head>
     <base href="<%=basePath%>">
+
+
     
     <title>My JSP 'Delete.jsp' starting page</title>
     
@@ -24,7 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   </head>
   <body>
-    <h1 text align="center";>BookList</h1>
+    <h1 text align="center";>List</h1>
     <%
     	List<String> Title = (List)request.getAttribute("bookname");
     	//System.out.println(Title);

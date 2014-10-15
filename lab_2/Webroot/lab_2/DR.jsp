@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     
-    <h1 text align="center";>Delete Successfully!</h1>
+    <h1 text align="center";>Delete !</h1>
   </body>
  
    		 
